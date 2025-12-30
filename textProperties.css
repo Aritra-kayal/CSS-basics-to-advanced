@@ -1,15 +1,21 @@
 h1 {
   text-align: center;
-  text-decoration: underline;
+  text-decoration: wavy blue underline;
+  letter-spacing: 10px;
+  font-size: 50px;
+  font-family: Brush Script MT;
 }
 h3 {
   text-align: left;
   font-weight: normal;
   text-decoration: double blue underline;
+  font-family: avant grade, didot, sans-serif;
 }
 p {
   text-align: justify;
   font-weight: 600;
+  line-height: 2.5;
+  font-size: 15px;
 }
 
 a {
