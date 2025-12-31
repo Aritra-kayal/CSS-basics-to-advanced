@@ -26,3 +26,33 @@ h3 {
   background-color: blue;
   color: wheat;
 }
+/* descendant selector */
+.post a {
+  color: purple;
+  background-color: yellow;
+}
+
+nav ul li {
+  color: red;
+}
+/* adjacent sibling combinator */
+p + h3 {
+  text-decoration: underline;
+}
+
+.upvote + button {
+  background-color: green;
+  color: white;
+}
+/* child combinator */
+div > input {
+  background-color: darkslateblue;
+}
+/* attribute selector */
+input[type] {
+  color: red;
+}
+
+input[type="password"] {
+  color: green;
+}
