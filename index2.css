@@ -56,3 +56,26 @@ input[type] {
 input[type="password"] {
   color: green;
 }
+/* pseudo class */
+button:hover {
+  background-color: deepskyblue;
+  color: white;
+}
+
+h3:hover {
+  text-decoration: overline;
+}
+
+button:active {
+  background-color: deeppink;
+}
+
+p:active {
+  font-weight: bold;
+  color: green;
+}
+
+input[type="radio"]:checked + label {
+  color: red;
+  font-weight: bold;
+}
