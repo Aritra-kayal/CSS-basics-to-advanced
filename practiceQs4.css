@@ -1,0 +1,8 @@
+/* approach-1 */
+#myId p {
+  color: green;
+}
+/* approach-2 */
+div[id="myId"] p {
+  color: green;
+}
