@@ -1,0 +1,36 @@
+* {
+  background-color: #023047;
+  text-align: center;
+}
+
+div > p {
+  color: #8ecae6;
+}
+
+div input[type="text"],
+div input[type="password"] {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+#label1,
+#label2 {
+  color: white;
+}
+
+div > button {
+  background-color: #ffb703;
+  color: #219ebc;
+}
+
+div > button:hover {
+  background-color: white;
+}
+
+div > button:active {
+  background-color: palevioletred;
+}
+
+div > p::selection {
+  background-color: yellow;
+}
