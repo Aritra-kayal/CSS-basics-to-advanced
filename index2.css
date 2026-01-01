@@ -59,7 +59,7 @@ input[type="password"] {
 /* pseudo class */
 button:hover {
   background-color: deepskyblue;
-  color: white;
+  color: black;
 }
 
 h3:hover {
