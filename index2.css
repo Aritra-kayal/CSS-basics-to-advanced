@@ -79,3 +79,27 @@ input[type="radio"]:checked + label {
   color: red;
   font-weight: bold;
 }
+
+div:nth-of-type(2) {
+  background-color: blue;
+}
+/* pseudo elements */
+header > h1::first-letter {
+  color: #000;
+}
+
+p + p::first-line {
+  color: red;
+}
+
+p + p::selection {
+  background-color: yellowgreen;
+}
+/* cascading properties */
+h3 {
+  background-color: blue;
+}
+
+h3 {
+  background-color: yellow;
+}
