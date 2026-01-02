@@ -1,0 +1,23 @@
+/* the parent tag of h1 tag is body tag */
+h1 {
+  border: 2px solid black;
+  width: 50%;
+}
+
+#outerDiv {
+  height: 400px;
+  width: 400px;
+  background-color: steelblue;
+  border: 2px solid black;
+}
+
+#inerDiv {
+  height: 70px;
+  width: 70px;
+  background-color: deeppink;
+  border: 2px solid black;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
