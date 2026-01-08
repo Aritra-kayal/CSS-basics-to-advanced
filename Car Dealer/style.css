@@ -1,0 +1,310 @@
+* {
+  margin: 0px;
+  font-family: Arial;
+}
+
+#hero {
+  width: 100%;
+  height: 760px;
+  background-image: url(heroImage.png);
+  background-size: cover;
+}
+
+#top {
+  width: 1170px;
+  height: 55px;
+  /* border: 2px solid black; */
+  position: absolute;
+  top: 15px;
+  left: 180px;
+}
+#carLogo {
+  height: 31px;
+  width: 55px;
+  /* border: 2px solid black; */
+  margin: 5px;
+  margin-top: 10px;
+}
+
+#brandName {
+  height: 38px;
+  width: 118px;
+  /* border: 2px solid black; */
+  position: absolute;
+  top: 4px;
+  font-size: 30px;
+  color: #192459;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+div.MyBrandName {
+  display: inline-block;
+}
+
+#locationLogo {
+  height: 25px;
+  width: 25px;
+  /* border: 2px solid black; */
+  font-size: 24px;
+  position: absolute;
+  top: 8px;
+  left: 27%;
+  padding-right: 5px;
+  margin-top: 5px;
+}
+
+#address {
+  height: 36px;
+  width: 305px;
+  /* border: 2px solid black; */
+  position: absolute;
+  top: 5px;
+  left: 360px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #1a1a1a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 16px;
+  padding-left: 2px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+#phoneIcon {
+  height: 24px;
+  width: 24px;
+  /* border: 2px solid black; */
+  color: #1a1a1a;
+  font-size: 20px;
+  position: absolute;
+  left: 780px;
+  top: 13px;
+  margin-top: 10px;
+}
+
+#Hotline {
+  height: 15px;
+  width: 60px;
+  /* border: 2px solid black; */
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #e47f3a;
+  font-weight: 800;
+  position: absolute;
+  top: 0px;
+  left: 815px;
+  letter-spacing: 0.5px;
+  margin-top: 1px;
+}
+
+#phoneNumber {
+  height: 32px;
+  width: 128px;
+  /* border: 2px solid black; */
+  color: #192459;
+  font-size: 14px;
+  line-height: 15px;
+  padding-left: 2px;
+  position: absolute;
+  top: 14px;
+  left: 815px;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+.socialMediaIcon {
+  height: 25px;
+  width: 25px;
+  /* border: 2px solid black; */
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 2px;
+  margin-top: 2px;
+  color: #1a1a1a;
+}
+
+#socialMedia {
+  height: 36px;
+  width: 104px;
+  /* border: 2px solid black; */
+  position: absolute;
+  top: 13px;
+  left: 1060px;
+}
+
+#twitter {
+  width: 28px;
+}
+
+#instagram {
+  width: 26px;
+}
+
+div#instagram > a {
+  color: #1a1a1a;
+}
+
+div#facebook > a {
+  color: #1a1a1a;
+}
+
+div#twitter > a {
+  color: #1a1a1a;
+}
+
+#navBar {
+  width: 100%;
+  height: 48px;
+  /* border: 2px solid black; */
+  position: absolute;
+  top: 98px;
+  background-color: rgba(255, 255, 255, 0.32);
+}
+
+.navMenu {
+  display: inline-block;
+  height: 33px;
+  width: 49px;
+  font-size: 16px;
+  /* border: 2px solid black; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #192459;
+  margin-left: 40px;
+  margin-top: 14px;
+  font-weight: 550;
+}
+
+#newModels {
+  height: 20px;
+  width: 111px;
+}
+
+#services {
+  height: 20px;
+  width: 80px;
+}
+
+#aboutUs {
+  height: 20px;
+  width: 84px;
+}
+
+#contact {
+  height: 20px;
+  width: 77px;
+}
+
+#home {
+  border-bottom: 3px solid #e47f3a;
+}
+
+#nav {
+  height: 46px;
+  width: 780px;
+  /* border: 2px solid red; */
+  position: absolute;
+  left: 100px;
+}
+
+ul li.navMenu a {
+  text-decoration: none;
+  color: #192459;
+}
+
+#contactSeller {
+  height: 25px;
+  width: 167px;
+  border: 1px solid #fdb913;
+  background-color: #fdb913;
+  color: #192459;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 6.5px;
+  border-radius: 5px;
+  font-weight: 550;
+  margin-top: 7px;
+  position: absolute;
+  left: 885px;
+  padding-bottom: 2.5px;
+}
+
+div#contactSeller > a {
+  text-decoration: none;
+  color: #192459;
+}
+
+#compare {
+  height: 20px;
+  width: 60px;
+  /* border: 1px solid black; */
+  color: #192459;
+  font-size: 14px;
+  position: absolute;
+  top: 15px;
+  left: 1160px;
+  font-weight: 550;
+}
+
+div#compare > a {
+  text-decoration: none;
+  color: #192459;
+}
+
+#compareIcon {
+  height: 28px;
+  width: 33.5px;
+  /* border: 2px solid black; */
+  font-size: 27px;
+  margin-top: 5px;
+  position: absolute;
+  left: 1223px;
+  color: #000000;
+}
+
+#cart {
+  height: 20px;
+  width: 30px;
+  /* border: 1px solid black; */
+  color: #192459;
+  font-size: 14px;
+  position: absolute;
+  top: 15px;
+  left: 1283px;
+  font-weight: 550;
+}
+
+div#cart > a {
+  text-decoration: none;
+  color: #192459;
+}
+
+#cartIcon {
+  height: 26px;
+  width: 28px;
+  /* border: 2px solid black; */
+  font-size: 25px;
+  margin-top: 9px;
+  position: absolute;
+  left: 1310px;
+  color: #000000;
+}
+
+#cartNumber {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #e47f3a;
+  color: #ffffff;
+  background-color: #e47f3a;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 2px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 550;
+  position: absolute;
+  left: 1341px;
+  top: 2.5px;
+}
