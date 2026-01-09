@@ -92,5 +92,102 @@
         </div>
       </div>
     </div>
+    <div id="searchForm">
+      <form action="/action">
+        <div id="inerRectangle1">
+          <div id="modelSelection">
+            <div id="manufactureYear">
+              <label for="manYear" id="yOM">Year of manufacture</label>
+              <br />
+              <select name="Manufacture_Year" id="manYear">
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+              </select>
+            </div>
+            <div id="moved">
+              <label for="Km" id="M">Moved (Km)</label>
+              <br />
+              <select name="Moved" id="Km">
+                <option value="&lt; 10000">&lt; 10000</option>
+                <option value="&lt; 20000">&lt; 20000</option>
+                <option value="&lt; 30000">&lt; 30000</option>
+                <option value="&lt; 40000">&lt; 40000</option>
+                <option value="&lt; 50000">&lt; 50000</option>
+                <option value="&lt; 60000">&lt; 60000</option>
+              </select>
+            </div>
+            <div id="maker">
+              <label for="make" id="SM">Select make</label>
+              <br />
+              <select name="make" id="make">
+                <option value="Audi">Audi</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="BMW">BMW</option>
+                <option value="Tesla">Tesla</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Acura">Acura</option>
+              </select>
+            </div>
+            <div id="selectEngine">
+              <label for="engine" id="SE">Select engine</label>
+              <br />
+              <select name="engine" id="engine">
+                <option value="5 speed manual">5 Speed Manual</option>
+                <option value="5 speed automatic">5 Speed Automatic</option>
+                <option value="6 speed manual">6 Speed Manual</option>
+                <option value="6 speed automatic">6 Speed Automatic</option>
+              </select>
+            </div>
+            <div id="seletModel">
+              <label for="carModel" id="SMo">Select model</label>
+              <br />
+              <select name="car model" id="carModel">
+                <option value="A7 Sportback">A7 Sportback</option>
+                <option value="C-Class">C-Class</option>
+                <option value="M440i">M440i</option>
+                <option value="Roadster">Roadster</option>
+                <option value="Altima">Altima</option>
+                <option value="ILX">ILX</option>
+              </select>
+            </div>
+            <div id="carStatus">
+              <label for="status" id="CS">Select model</label>
+              <br />
+              <select name="car status" id="status">
+                <option value="Old Car">Old Car</option>
+                <option value="New Car">New Car</option>
+              </select>
+            </div>
+          </div>
+          <div id="priceSelection">
+            <div id="pricingUSD">Pricing ( USD )</div>
+            <div id="From">
+              <label for="from" id="minPrice">From</label>
+              <br />
+              <input
+                type="number"
+                name="min price"
+                id="from"
+                placeholder="Minimum Price"
+              />
+            </div>
+            <div id="To">
+              <label for="to" id="maxPrice">To</label>
+              <br />
+              <input
+                type="number"
+                name="max price"
+                id="to"
+                placeholder="Maximum Price"
+              />
+            </div>
+            <button id="searchCar">Search Car</button>
+          </div>
+        </div>
+      </form>
+    </div>
   </body>
 </html>

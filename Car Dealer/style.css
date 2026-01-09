@@ -444,3 +444,244 @@ div#contactNow > a {
   top: 10px;
   left: 15px;
 }
+
+#inerRectangle1 {
+  height: 220px;
+  width: 1170px;
+  /* border: 2px solid black; */
+  position: absolute;
+  top: 740px;
+  left: 177.5px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  /* box-shadow: 0px 2px 10px black; */
+  border-bottom: 6px solid #797979;
+}
+
+#manYear {
+  height: 45px;
+  width: 200px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-weight: 550;
+  font-size: 16px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50px;
+  left: 25px;
+}
+
+#yOM {
+  font-size: 14px;
+  /* border: 1px solid black; */
+  color: #797979;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+
+#M {
+  font-size: 14px;
+  /* border: 1px solid black; */
+  color: #797979;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 122px;
+  left: 25px;
+}
+
+#Km {
+  height: 45px;
+  width: 200px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-weight: 550;
+  font-size: 16px;
+  border-radius: 5px;
+  position: absolute;
+  top: 150px;
+  left: 25px;
+}
+
+#SM {
+  font-size: 14px;
+  /* border: 1px solid black; */
+  color: #797979;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 20px;
+  left: 270px;
+}
+
+#make {
+  height: 45px;
+  width: 200px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-weight: 550;
+  font-size: 16px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50px;
+  left: 270px;
+}
+
+#SE {
+  font-size: 14px;
+  /* border: 1px solid black; */
+  color: #797979;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 122px;
+  left: 270px;
+}
+
+#engine {
+  height: 45px;
+  width: 200px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: 550;
+  position: absolute;
+  top: 150px;
+  left: 270px;
+}
+
+#SMo {
+  font-size: 14px;
+  /* border: 1px solid black; */
+  color: #797979;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 20px;
+  left: 520px;
+}
+
+#carModel {
+  height: 45px;
+  width: 200px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: 550;
+  position: absolute;
+  top: 50px;
+  left: 520px;
+}
+
+#CS {
+  font-size: 14px;
+  /* border: 1px solid black; */
+  color: #797979;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 122px;
+  left: 520px;
+}
+
+#status {
+  height: 45px;
+  width: 200px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: 550;
+  position: absolute;
+  top: 150px;
+  left: 520px;
+}
+
+#priceSelection {
+  height: 220px;
+  width: 423px;
+  /* border: 1px solid #f5f5f5; */
+  position: absolute;
+  top: 0px;
+  left: 745px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+#pricingUSD {
+  height: 20px;
+  width: 112px;
+  /* border: 1px solid black; */
+  color: #1a1a1a;
+  font-size: 16px;
+  font-weight: 550;
+  position: absolute;
+  top: 20px;
+  left: 17px;
+}
+
+#minPrice {
+  font-size: 14px;
+  /* border: 1px solid black; */
+  color: #797979;
+  position: absolute;
+  top: 65px;
+  left: 17px;
+}
+
+#from {
+  height: 45px;
+  width: 180px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-size: 16px;
+  border-radius: 5px;
+  position: absolute;
+  left: 17px;
+  top: 90px;
+  font-weight: 550;
+}
+
+#maxPrice {
+  font-size: 14px;
+  /* border: 1px solid black; */
+  color: #797979;
+  position: absolute;
+  top: 65px;
+  left: 222px;
+}
+
+#to {
+  height: 45px;
+  width: 180px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-size: 16px;
+  border-radius: 5px;
+  position: absolute;
+  left: 222px;
+  top: 90px;
+  font-weight: 550;
+}
+
+#searchCar {
+  height: 44px;
+  width: 179px;
+  border: 1px solid #fdb913;
+  background-color: #fdb913;
+  color: #192459;
+  font-size: 16px;
+  font-weight: 550;
+  border-radius: 5px;
+  position: absolute;
+  top: 160px;
+  left: 120px;
+}
