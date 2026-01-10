@@ -447,7 +447,7 @@ div#contactNow > a {
 
 #inerRectangle1 {
   height: 220px;
-  width: 1170px;
+  width: 1168px;
   /* border: 2px solid black; */
   position: absolute;
   top: 740px;
@@ -610,7 +610,7 @@ div#contactNow > a {
   top: 0px;
   left: 745px;
   border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 5px;
   background-color: #f5f5f5;
 }
 
@@ -742,7 +742,7 @@ div#contactNow > a {
 #allCars {
   height: 602px;
   width: 1170px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: absolute;
   left: 176px;
   top: 1075px;
@@ -751,7 +751,7 @@ div#contactNow > a {
 .allCarModel {
   height: 286px;
   width: 270px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: inline-block;
 }
 
@@ -834,4 +834,124 @@ div#contactNow > a {
 
 #lexusRX-350 {
   border-radius: 5px;
+}
+
+.carModelNameAndYear {
+  height: 16px;
+  width: 270px;
+  font-size: 14px;
+  font-weight: 550;
+  color: #1a1a1a;
+  /* border: 2px solid black; */
+  position: absolute;
+  top: 188px;
+}
+.mrp {
+  height: 15px;
+  width: 47px;
+  font-size: 12px;
+  color: #999999;
+  text-decoration: #999999 solid line-through;
+  position: absolute;
+  top: 212px;
+}
+
+.MRP {
+  width: 63px;
+  height: 18px;
+  color: #1a1a1a;
+  position: absolute;
+  left: 55px;
+  font-size: 14px;
+  font-weight: 550;
+  top: 212px;
+}
+
+#MRP1 {
+  position: absolute;
+  left: 0px;
+}
+
+#MRP2 {
+  position: absolute;
+  left: 0px;
+}
+
+#MRP3 {
+  position: absolute;
+  left: 0px;
+}
+
+#MRP4 {
+  position: absolute;
+  left: 0px;
+}
+
+.rating {
+  width: 90px;
+  height: 16px;
+  /* border: 1px solid black; */
+  color: #fdb913;
+  font-size: 12px;
+  position: absolute;
+  top: 235px;
+}
+
+.recommends {
+  height: 15px;
+  width: 102px;
+  /* border: 1px solid black; */
+  color: #797979;
+  font-size: 12px;
+  position: absolute;
+  top: 235px;
+  left: 95px;
+  font-weight: 500;
+}
+
+.subsidy {
+  width: 71px;
+  height: 12px;
+  /* border: 1px solid black; */
+  font-size: 12px;
+  color: #797979;
+  font-weight: 500;
+  position: absolute;
+  top: 268px;
+}
+
+.BOA {
+  height: 22px;
+  width: 110px;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 262px;
+  left: 85px;
+}
+
+#viewAllCar {
+  height: 44px;
+  width: 195px;
+  border: 1px solid #fdb913;
+  background-color: #fdb913;
+  border-radius: 5px;
+  font-weight: 550;
+  font-size: 16px;
+  position: absolute;
+  left: 662px;
+  top: 1725px;
+}
+
+#VAC {
+  text-decoration: none;
+  color: #192459;
+  position: absolute;
+  top: 12.5px;
+  left: 51px;
+  text-align: center;
+}
+
+#aritra {
+  position: absolute;
+  top: 2000px;
 }
