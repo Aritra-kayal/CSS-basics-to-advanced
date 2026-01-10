@@ -738,3 +738,100 @@ div#contactNow > a {
   left: 1242px;
   text-align: right;
 }
+
+#allCars {
+  height: 602px;
+  width: 1170px;
+  border: 1px solid black;
+  position: absolute;
+  left: 176px;
+  top: 1075px;
+}
+
+.allCarModel {
+  height: 286px;
+  width: 270px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+#mercedes {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#tesla {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+#hyundai {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#lexus {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#acura {
+  position: absolute;
+  bottom: 0px;
+  left: 300px;
+}
+#bmw {
+  position: absolute;
+  bottom: 0px;
+  right: 300px;
+}
+
+#chevrolet {
+  position: absolute;
+  top: 0px;
+  right: 300px;
+}
+
+#nissan {
+  position: absolute;
+  top: 0px;
+  left: 300px;
+}
+
+#mercedesCClass {
+  height: 180px;
+  width: 270px;
+  border-radius: 5px;
+}
+
+#nissanAltima {
+  border-radius: 5px;
+}
+
+#chevroletTrailblazer {
+  border-radius: 5px;
+}
+
+#hyundaiTucson {
+  border-radius: 5px;
+}
+
+#teslaRoadster {
+  border-radius: 5px;
+}
+
+#acuraILX {
+  border-radius: 5px;
+}
+
+#bmwM440i {
+  border-radius: 5px;
+}
+
+#lexusRX-350 {
+  border-radius: 5px;
+}
