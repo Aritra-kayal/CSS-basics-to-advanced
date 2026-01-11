@@ -939,7 +939,7 @@ div#contactNow > a {
   font-size: 16px;
   position: absolute;
   left: 662px;
-  top: 1725px;
+  top: 1745px;
 }
 
 #VAC {
@@ -951,7 +951,110 @@ div#contactNow > a {
   text-align: center;
 }
 
-#aritra {
+#discountLogo1 {
+  height: 33px;
+  width: 79px;
+  /* border: 1px solid black; */
   position: absolute;
-  top: 2000px;
+  left: 0px;
+  top: 10px;
+}
+
+#discount1 {
+  height: 33px;
+  width: 79px;
+}
+
+#discountAmount1 {
+  height: 23px;
+  width: 33px;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 5px;
+  left: 9px;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+#discountPercentage1 {
+  height: 15px;
+  width: 11px;
+  /* border: 1px solid black; */
+  font-size: 12px;
+  color: #ffffff;
+  position: absolute;
+  top: 7px;
+  left: 43px;
+}
+
+#discountLogo2 {
+  height: 33px;
+  width: 79px;
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+
+#discount2 {
+  height: 33px;
+  width: 79px;
+}
+
+#discountAmount2 {
+  height: 23px;
+  width: 33px;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 5px;
+  left: 9px;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+#discountPercentage2 {
+  height: 15px;
+  width: 11px;
+  /* border: 1px solid black; */
+  font-size: 12px;
+  color: #ffffff;
+  position: absolute;
+  top: 7px;
+  left: 43px;
+}
+
+#discountLogo3 {
+  height: 33px;
+  width: 79px;
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+
+#discount3 {
+  height: 33px;
+  width: 79px;
+}
+
+#discountAmount3 {
+  height: 23px;
+  width: 33px;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 5px;
+  left: 9px;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+#discountPercentage3 {
+  height: 15px;
+  width: 11px;
+  /* border: 1px solid black; */
+  font-size: 12px;
+  color: #ffffff;
+  position: absolute;
+  top: 7px;
+  left: 43px;
 }
