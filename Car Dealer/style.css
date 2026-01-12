@@ -696,7 +696,17 @@ div#contactNow > a {
   position: absolute;
   top: 1010px;
   left: 177.5px;
+  /* border-bottom: 3px solid #e47f3a; */
+}
+
+#NewCarModelOuter {
+  height: 42px;
+  width: 95px;
+  /* border: 1px solid black; */
   border-bottom: 3px solid #e47f3a;
+  position: absolute;
+  top: 999px;
+  left: 177.5px;
 }
 
 #NewModels {
@@ -1242,4 +1252,26 @@ div#contactSellCar i {
   position: absolute;
   top: 10px;
   left: 24px;
+}
+
+#testimonialsOuter {
+  height: 42px;
+  width: 100px;
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 177.5px;
+  top: 2494px;
+  border-bottom: 3px solid #e47f3a;
+}
+
+#testimonials {
+  height: 30px;
+  width: 144px;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 2503.5px;
+  left: 177.5px;
+  font-size: 24px;
+  font-weight: 550;
+  color: #192459;
 }
