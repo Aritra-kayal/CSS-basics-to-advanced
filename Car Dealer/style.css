@@ -1587,3 +1587,80 @@ div#contactSellCar i {
   top: 0px;
   left: 1025px;
 }
+
+#allcarPhotos {
+  height: 810px;
+  width: 100%;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 3415px;
+}
+
+#teslaCarPhoto {
+  height: 405px;
+  width: 751px;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url(Rectangle37.png);
+  background-size: cover;
+}
+
+#lemboCarPhoto {
+  height: 405px;
+  width: 385px;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  right: 385px;
+  background-image: url(Rectangle39.png);
+  background-size: cover;
+}
+
+#bmwCarPhoto {
+  height: 405px;
+  width: 385px;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+div#bmwCarPhoto > img {
+  height: 405px;
+  width: 385px;
+}
+
+#lemboCarPhoto2 {
+  height: 405.5px;
+  width: 385px;
+  /* border: 1px solid black; */
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-image: url(Rectangle42.png);
+  background-size: cover;
+}
+
+#volkswagenCarPhoto {
+  height: 405.5px;
+  width: 751px;
+  /* border: 1px solid black; */
+  position: absolute;
+  bottom: 0px;
+  left: 385px;
+  background-image: url(Rectangle41.png);
+  background-size: cover;
+}
+
+#carDoorPhoto {
+  height: 405.5px;
+  width: 385px;
+  /* border: 1px solid black; */
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-image: url(Rectangle43.png);
+  background-size: cover;
+}
