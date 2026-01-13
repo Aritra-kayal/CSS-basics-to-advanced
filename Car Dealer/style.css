@@ -1664,3 +1664,205 @@ div#bmwCarPhoto > img {
   background-image: url(Rectangle43.png);
   background-size: cover;
 }
+
+#weAreReady {
+  height: 30px;
+  width: 281px;
+  /* border: 1px solid black; */
+  font-size: 24px;
+  font-weight: 550;
+  color: #192459;
+  position: absolute;
+  left: 177.5px;
+  top: 4310px;
+}
+
+#weAreReadyLine {
+  height: 42px;
+  width: 98px;
+  /* border: 1px solid black; */
+  border-bottom: 3px solid #e47f3a;
+  position: absolute;
+  top: 4305.5px;
+  left: 177.5px;
+}
+
+#callUs {
+  height: 30px;
+  width: 205px;
+  /* border: 1px solid black; */
+  font-size: 24px;
+  font-weight: 550;
+  color: #192459;
+  position: absolute;
+  left: 177.5px;
+  top: 4385px;
+}
+
+#directSupport {
+  height: 30px;
+  width: 165px;
+  /* border: 1px solid black; */
+  font-size: 24px;
+  font-weight: 550;
+  color: #192459;
+  position: absolute;
+  left: 580px;
+  top: 4385px;
+}
+
+#mobileApp {
+  height: 58px;
+  width: 346px;
+  /* border: 1px solid black; */
+  font-size: 22px;
+  font-weight: 550;
+  color: #192459;
+  position: absolute;
+  left: 990px;
+  top: 4380px;
+  line-height: 32px;
+}
+
+#ForAdvice {
+  height: 58px;
+  width: 297px;
+  /* border: 1px solid black; */
+  color: #1a1a1a;
+  line-height: 29px;
+  font-size: 18px;
+  position: absolute;
+  left: 177.5px;
+  top: 4425px;
+}
+
+#mTf {
+  font-weight: 550;
+  color: #000000;
+}
+
+#s {
+  font-weight: 550;
+  color: #000000;
+}
+
+#findTheBranch {
+  height: 58px;
+  width: 266px;
+  /* border: 1px solid black; */
+  color: #1a1a1a;
+  line-height: 29px;
+  font-size: 18px;
+  position: absolute;
+  left: 580px;
+  top: 4425px;
+}
+
+div#findTheBranch a {
+  color: #e47f3a;
+}
+
+#download {
+  height: 45.58px;
+  width: 316px;
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 990px;
+  top: 4455px;
+}
+
+.appdownload {
+  height: 45.58px;
+  width: 150px;
+  /* border: 1px solid black; */
+  display: inline-block;
+}
+
+#appStore {
+  position: absolute;
+  right: 0px;
+  background-image: url(pngwing2.png);
+  background-size: cover;
+}
+
+#googlePlay {
+  position: absolute;
+  left: 0px;
+  background-image: url(pngwing3.png);
+  background-size: cover;
+}
+
+#lastNav {
+  height: 51px;
+  width: 1170px;
+  /* border: 2px solid black; */
+  border-bottom: 2px solid #eeeeee;
+  border-top: 2px solid #eeeeee;
+  position: absolute;
+  left: 177.5px;
+  top: 4600px;
+}
+
+#branchSystem {
+  height: 29px;
+  width: 113px;
+  /* border: 1px solid black; */
+  font-size: 16px;
+  color: #192459;
+  position: absolute;
+  left: 0px;
+  top: 17px;
+}
+
+#termsOfUse {
+  height: 29px;
+  width: 95px;
+  /* border: 1px solid black; */
+  font-size: 16px;
+  color: #192459;
+  position: absolute;
+  left: 173px;
+  top: 17px;
+}
+
+#safetyAndSecurity {
+  height: 29px;
+  width: 144px;
+  /* border: 1px solid black; */
+  font-size: 16px;
+  color: #192459;
+  position: absolute;
+  left: 328px;
+  top: 17px;
+}
+
+#alenaStudio {
+  height: 29px;
+  width: 444px;
+  /* border: 1px solid black; */
+  font-size: 14px;
+  color: #192459;
+  position: absolute;
+  right: 0px;
+  top: 17px;
+  text-align: right;
+}
+
+#OurBrand {
+  font-weight: 550;
+}
+
+#OurDesigner {
+  font-weight: 550;
+  color: #e47f3a;
+}
+
+#lastBG {
+  height: 375.14px;
+  width: 100%;
+  /* border: 1px solid black; */
+  background-image: url(Bg.png);
+  background-size: cover;
+  position: absolute;
+  top: 4825px;
+}
