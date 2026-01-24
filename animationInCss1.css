@@ -1,0 +1,37 @@
+#box1 {
+  height: 100px;
+  width: 300px;
+  background-color: pink;
+
+  /* animation-name: fontSizeForBox1;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 2;
+  animation-direction: alternate; */
+
+  animation-name: backgroundColorForBox1;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes fontSizeForBox1 {
+  from {
+    font-size: 20px;
+  }
+  to {
+    font-size: 40px;
+  }
+}
+
+@keyframes backgroundColorForBox1 {
+  from {
+    background-color: green;
+  }
+  to {
+    background-color: red;
+  }
+}
