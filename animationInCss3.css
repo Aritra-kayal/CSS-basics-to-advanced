@@ -1,0 +1,19 @@
+#box1 {
+  height: 100px;
+  width: 300px;
+  background-color: pink;
+  text-align: center;
+  animation: Box1 2s linear 0s infinite normal;
+}
+
+@keyframes Box1 {
+  from {
+    width: 300px;
+    background-color: green;
+  }
+  to {
+    width: 600px;
+    background-color: red;
+    border-radius: 15px;
+  }
+}
