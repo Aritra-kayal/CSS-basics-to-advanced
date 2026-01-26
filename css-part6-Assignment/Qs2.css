@@ -67,7 +67,7 @@
     grid-column: 4 / span 9;
   }
   #ads {
-    grid-row: 12/13;
+    grid-row: 12 / span 1;
     grid-column: 1 / span 3;
   }
   #footer {
