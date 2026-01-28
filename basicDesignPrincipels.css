@@ -1,0 +1,38 @@
+h1 {
+  font-family: "Bitcount Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+  text-align: center;
+}
+
+#div1 {
+  height: 50px;
+  width: 235px;
+  /* border: 2px solid black; */
+  margin: 10px auto;
+  background-color: pink;
+}
+
+h2 {
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+#div2 {
+  height: 50px;
+  width: 235px;
+  /* border: 2px solid black; */
+  margin: 10px auto;
+  margin-top: 20px;
+  background-color: red;
+  color: white;
+  font-size: 25px;
+}
