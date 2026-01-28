@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sidebar_menu {
+  width: 400px;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.377);
+  position: fixed;
+  left: -450px;
+  transition: all 0.2s linear;
+}
+
+.main_box {
+  height: 100vh;
+  background-image: url(photo.jpg);
+  background-size: cover;
+}
+
+#check {
+  display: none;
+}
+
+.btn_one i {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  margin-left: 10px;
+  top: 7px;
+  cursor: pointer;
+}
+
+.logo {
+  position: absolute;
+  margin-top: 0px;
+  padding-left: 45px;
+  margin-left: 0px;
+  font-size: 25px;
+  height: 40px;
+  width: 88.5%;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.4);
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn_two i {
+  position: absolute;
+  top: 8px;
+  left: 350px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.menu {
+  position: absolute;
+  top: 95px;
+  line-height: 50px;
+}
+
+.menu li {
+  color: white;
+  font-size: 25px;
+  margin-left: 10px;
+  /* border: 1px solid white; */
+  transition: all 0.2s linear;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 20px;
+  color: white;
+}
+
+.sidebar_menu .menu li {
+  margin-left: 0px;
+  width: 398px;
+}
+
+.sidebar_menu .menu li i {
+  margin-left: 10px;
+}
+
+.social_media {
+  position: absolute;
+  left: 30%;
+  bottom: 10px;
+  font-size: 25px;
+}
+
+.social_media i {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.345);
+  margin-right: 10px;
+  transition: all 0.2s linear;
+}
+
+.btn_two i:hover {
+  font-size: 30px;
+}
+
+.menu li:hover {
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.4);
+}
+
+.social_media i:hover {
+  transform: scale(1.5);
+  color: white;
+}
+
+.btn_one i:hover {
+  font-size: 35px;
+}
+
+input[type="checkbox"]:checked ~ .sidebar_menu {
+  left: 0px;
+}
+
+input[type="checkbox"]:checked ~ .btn_one {
+  opacity: 0;
+}
