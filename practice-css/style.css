@@ -1,0 +1,17 @@
+p {
+  background-color: red;
+  color: blue;
+}
+
+span > button {
+  background-color: red;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  color: green;
+  background-color: red;
+}
