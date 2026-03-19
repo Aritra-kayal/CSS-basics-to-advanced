@@ -1,0 +1,16 @@
+button:hover {
+  background-color: blue;
+}
+
+#btn2:active {
+  background-color: green;
+}
+
+input[type="radio"]:checked + label {
+  color: red;
+  font-weight: bold;
+}
+
+p:nth-of-type(even) {
+  color: red;
+}
