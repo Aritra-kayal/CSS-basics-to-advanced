@@ -1,0 +1,15 @@
+p::first-line {
+  color: green;
+}
+
+p::first-letter {
+  color: red;
+}
+
+p::selection {
+  background-color: yellow !important;
+}
+
+p::selection {
+  background-color: red !important;
+}
