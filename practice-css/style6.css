@@ -1,0 +1,12 @@
+div {
+  height: 200px;
+  width: 200px;
+  background-color: pink;
+  /* transition-duration: 2s;
+  transition-delay: 0.2s; */
+  transition: border-radius 2s ease-in-out 0.2s;
+}
+
+div:hover {
+  border-radius: 50%;
+}
