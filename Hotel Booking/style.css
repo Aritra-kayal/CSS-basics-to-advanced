@@ -1,4 +1,271 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(30px);
+  overflow: hidden;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+}
+
+.brand > img {
+  height: 50px;
+  width: 50px;
+}
+
+.brand > p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #111827;
+}
+
+.search {
+  height: 50px;
+  width: 424.39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 0px 2px #9ca3af;
+  border-radius: 50px;
+  margin-left: -80px;
+}
+
+.any-where {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+  height: 32px;
+  width: 121px;
+  border-right: 2px solid #e5e7eb;
+}
+
+.any-where > i {
+  color: #6366f1;
+  font-size: 14px;
+}
+
+.any-where > a {
+  text-decoration: none;
+  font-size: 15.5px;
+  color: #374151;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.any-week {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -55px;
+  height: 32px;
+  width: 110px;
+  border-right: 2px solid #e5e7eb;
+}
+
+.any-week > i {
+  color: #6366f1;
+  font-size: 14px;
+  margin-left: -30px;
+}
+
+.any-week > a {
+  text-decoration: none;
+  font-size: 15.5px;
+  color: #374151;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.add-guests {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -50px;
+  height: 32px;
+  width: 121px;
+  justify-content: space-between;
+}
+
+.add-guests > a {
+  text-decoration: none;
+  font-size: 15.5px;
+  color: #9ca3af;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin-left: -20px;
+}
+
+.searchLogo {
+  height: 36px;
+  width: 36px;
+  background: linear-gradient(to bottom right, #6365f1e1, #a955f7e1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+  transition: all 0.2s linear;
+}
+
+.searchLogo:hover {
+  transform: translateY(-2.5px);
+  background: linear-gradient(to bottom right, #6365f1, #a955f7);
+  box-shadow: 2px 2px 5px #9ca3af;
+}
+
+.searchLogo > i {
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 3px;
+}
+
+.login-box {
+  display: flex;
+  height: 36px;
+  width: 385px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 120px;
+}
+
+.host {
+  height: 36px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s linear;
+}
+
+.host:hover {
+  background-color: #9ca3af28;
+  border-radius: 50px;
+  color: #6366f1;
+  cursor: pointer;
+}
+
+.host a {
+  text-decoration: none;
+  color: #374151;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 7px;
+  transition: all 0.2s linear;
+}
+
+.host a:hover {
+  color: #6366f1;
+  cursor: pointer;
+}
+
+.login {
+  height: 36px;
+  width: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s linear;
+}
+
+.login:hover {
+  background-color: #9ca3af28;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.login a {
+  text-decoration: none;
+  color: #374151;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s linear;
+}
+
+.login > a:hover {
+  color: #6366f1;
+  cursor: pointer;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  width: 84px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(to bottom right, #6365f1e1, #a955f7e1);
+  transition: all 0.2s linear;
+}
+
+.sign-up:hover {
+  transform: translateY(-2.5px);
+  background: linear-gradient(to bottom right, #6365f1, #a955f7);
+  box-shadow: 2px 2px 5px #9ca3af;
+}
+
+.sign-up > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.user-icon {
+  height: 36px;
+  width: 36px;
+  color: #374151;
+  background-color: #9ca3af4a;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3px;
+}
+
+.hero-main {
+  position: absolute;
+  top: 5rem;
+  width: 100%;
+  height: 100vh;
+  background-image: url("asset/hero.png");
+  background-size: cover;
+  z-index: -10;
+}
+
+.hero-color {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #0f0c29bf, #302b63a6, #24243e8c);
+  z-index: -5;
 }
