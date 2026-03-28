@@ -605,6 +605,74 @@
   margin-left: 7px;
 }
 
+.quick-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px;
+  width: 700px;
+  position: absolute;
+  top: 550px;
+  left: 140px;
+}
+
+.happy-guests {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.happy-guests p {
+  margin-left: 7px;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.guest-number {
+  font-weight: 700;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -20px;
+}
+
+.star {
+  font-size: 10px;
+  color: #f59e0b;
+}
+
+.avg-rating {
+  color: #fff;
+  margin-left: 7px;
+  font-size: 14px;
+}
+
+.rating-number {
+  font-weight: 700;
+}
+
+.countries {
+  margin-right: 60px;
+  left: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countries-para {
+  color: #fff;
+  font-size: 14px;
+}
+
+.countries-number {
+  font-weight: 700;
+}
+
 .hero-main {
   position: absolute;
   top: 5rem;
