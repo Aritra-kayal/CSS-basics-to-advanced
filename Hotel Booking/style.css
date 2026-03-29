@@ -1212,6 +1212,8 @@
 .review1 p > span {
   font-size: 12px;
   color: #9ca3af;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 .price1 {
@@ -1326,6 +1328,8 @@
 .review2 p > span {
   font-size: 12px;
   color: #9ca3af;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 .price2 {
@@ -1440,6 +1444,8 @@
 .review3 p > span {
   font-size: 12px;
   color: #9ca3af;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 .price3 {
@@ -1554,6 +1560,8 @@
 .review4 p > span {
   font-size: 12px;
   color: #9ca3af;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 .price4 {
@@ -1668,6 +1676,8 @@
 .review5 p > span {
   font-size: 12px;
   color: #9ca3af;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 .price5 {
@@ -1782,6 +1792,8 @@
 .review6 p > span {
   font-size: 12px;
   color: #9ca3af;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 .price6 {
@@ -1890,12 +1902,14 @@
   font-size: 14px;
   font-weight: 600;
   color: #374151;
-  margin-right: 7px;
+  margin-right: 8.25px;
 }
 
 .review7 p > span {
   font-size: 12px;
   color: #9ca3af;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 .price7 {
@@ -2004,12 +2018,14 @@
   font-size: 14px;
   font-weight: 600;
   color: #374151;
-  margin-right: 3px;
+  margin-right: 3.25px;
 }
 
 .review8 p > span {
   font-size: 12px;
   color: #9ca3af;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 .price8 {
