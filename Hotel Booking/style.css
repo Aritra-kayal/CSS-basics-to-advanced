@@ -65,6 +65,10 @@
   border-right: 2px solid #e5e7eb;
 }
 
+.any-where:hover {
+  cursor: pointer;
+}
+
 .any-where > i {
   color: #6366f1;
   font-size: 14px;
@@ -87,6 +91,10 @@
   height: 32px;
   width: 110px;
   border-right: 2px solid #e5e7eb;
+}
+
+.any-week:hover {
+  cursor: pointer;
 }
 
 .any-week > i {
@@ -114,6 +122,10 @@
   justify-content: space-between;
 }
 
+.add-guests:hover {
+  cursor: pointer;
+}
+
 .add-guests > a {
   text-decoration: none;
   font-size: 15.5px;
@@ -139,6 +151,7 @@
   transform: translateY(-2.5px);
   background: linear-gradient(to bottom right, #6365f1, #a955f7);
   box-shadow: 2px 2px 5px #9ca3af;
+  cursor: pointer;
 }
 
 .searchLogo > i {
@@ -239,6 +252,7 @@
   transform: translateY(-2.5px);
   background: linear-gradient(to bottom right, #6365f1, #a955f7);
   box-shadow: 2px 2px 5px #9ca3af;
+  cursor: pointer;
 }
 
 .sign-up > a {
@@ -252,12 +266,18 @@
   height: 36px;
   width: 36px;
   color: #374151;
-  background-color: #9ca3af4a;
+  background-color: #9ca3af2b;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 3px;
+  transition: all 0.2s linear;
+}
+
+.user-icon:hover {
+  background-color: #9ca3af55;
+  cursor: pointer;
 }
 
 .verified {
@@ -1111,6 +1131,10 @@
   justify-content: space-between;
 }
 
+.section-header-button:hover {
+  cursor: pointer;
+}
+
 .featured-stays {
   height: 30px;
   width: 132.92px;
@@ -1266,6 +1290,7 @@
 .gridbox:hover {
   transform: translateY(-7px);
   box-shadow: 4px 4px 5px #9ca3af;
+  cursor: pointer;
 }
 
 .imgdiv {
@@ -1382,6 +1407,7 @@
 .gridbox:hover {
   transform: translateY(-7px);
   box-shadow: 4px 4px 5px #9ca3af;
+  cursor: pointer;
 }
 
 .imgdiv {
@@ -1498,6 +1524,7 @@
 .gridbox:hover {
   transform: translateY(-7px);
   box-shadow: 4px 4px 5px #9ca3af;
+  cursor: pointer;
 }
 
 .imgdiv {
@@ -1614,6 +1641,7 @@
 .gridbox:hover {
   transform: translateY(-7px);
   box-shadow: 4px 4px 5px #9ca3af;
+  cursor: pointer;
 }
 
 .imgdiv {
@@ -1730,6 +1758,7 @@
 .gridbox:hover {
   transform: translateY(-7px);
   box-shadow: 4px 4px 5px #9ca3af;
+  cursor: pointer;
 }
 
 .imgdiv {
@@ -1846,6 +1875,7 @@
 .gridbox:hover {
   transform: translateY(-7px);
   box-shadow: 4px 4px 5px #9ca3af;
+  cursor: pointer;
 }
 
 .imgdiv {
@@ -1962,6 +1992,7 @@
 .gridbox:hover {
   transform: translateY(-7px);
   box-shadow: 4px 4px 5px #9ca3af;
+  cursor: pointer;
 }
 
 .imgdiv {
@@ -2078,6 +2109,7 @@
 .gridbox:hover {
   transform: translateY(-7px);
   box-shadow: 4px 4px 5px #9ca3af;
+  cursor: pointer;
 }
 
 .imgdiv {
@@ -2123,6 +2155,7 @@
 
 .load-btn:hover {
   background: linear-gradient(to bottom right, #696cfd1a, #a855f71a);
+  cursor: pointer;
 }
 
 .load-btn p {
