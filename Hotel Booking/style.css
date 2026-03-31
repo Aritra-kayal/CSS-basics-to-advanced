@@ -1337,32 +1337,6 @@
   color: rgba(255, 247, 0, 0.69);
   font-size: 12px;
 }
-/* beach-badge */
-.beach-badge {
-  height: 23px;
-  width: 63.77px;
-  border: none;
-  border-radius: 50px;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 113px;
-  left: 12px;
-}
-
-.beach-badge:hover {
-  cursor: pointer;
-}
-
-.beach-badge p {
-  color: #1f2937;
-  font-size: 12px;
-  font-weight: 600;
-  font-family: "Inter", sans-serif;
-  margin-left: 2px;
-}
 /* love-div */
 .love-div {
   height: 32px;
@@ -1498,32 +1472,6 @@
 
 .gridbox:hover > .imgdiv > img {
   transform: scale(1.05);
-}
-/* mountain-badge */
-.mountain-badge {
-  height: 23px;
-  width: 82.14px;
-  border: none;
-  border-radius: 50px;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 113px;
-  left: 12px;
-}
-
-.mountain-badge:hover {
-  cursor: pointer;
-}
-
-.mountain-badge p {
-  color: #1f2937;
-  font-size: 12px;
-  font-weight: 600;
-  font-family: "Inter", sans-serif;
-  margin-left: 2px;
 }
 /* love-div */
 #love-div-red {
@@ -1676,32 +1624,6 @@
 .superhost-badge i {
   color: rgba(255, 247, 0, 0.69);
   font-size: 12px;
-}
-/* city-badge */
-.city-badge {
-  height: 23px;
-  width: 50.95px;
-  border: none;
-  border-radius: 50px;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 113px;
-  left: 12px;
-}
-
-.city-badge:hover {
-  cursor: pointer;
-}
-
-.city-badge p {
-  color: #1f2937;
-  font-size: 12px;
-  font-weight: 600;
-  font-family: "Inter", sans-serif;
-  margin-left: 2px;
 }
 /* box4 */
 #gridimg4 {
@@ -1962,32 +1884,6 @@
 
 .gridbox:hover > .imgdiv > img {
   transform: scale(1.05);
-}
-/* forest-badge */
-.forest-badge {
-  height: 23px;
-  width: 63.81px;
-  border: none;
-  border-radius: 50px;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 113px;
-  left: 12px;
-}
-
-.forest-badge:hover {
-  cursor: pointer;
-}
-
-.forest-badge p {
-  color: #1f2937;
-  font-size: 12px;
-  font-weight: 600;
-  font-family: "Inter", sans-serif;
-  margin-left: 2px;
 }
 /* box6 */
 #gridimg6 {
@@ -2253,32 +2149,6 @@
 
 .gridbox:hover > .imgdiv > img {
   transform: scale(1.05);
-}
-/* budget-badge */
-.budget-badge {
-  height: 23px;
-  width: 69px;
-  border: none;
-  border-radius: 50px;
-  background-color: #dcfce7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 113px;
-  left: 12px;
-}
-
-.budget-badge:hover {
-  cursor: pointer;
-}
-
-.budget-badge p {
-  color: #15803d;
-  font-size: 12px;
-  font-weight: 600;
-  font-family: "Inter", sans-serif;
-  margin-left: 2px;
 }
 /* box8 */
 #gridimg8 {
