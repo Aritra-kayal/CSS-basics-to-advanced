@@ -725,7 +725,7 @@
   background: linear-gradient(to bottom right, #0f0c29bf, #302b63a6, #24243e8c);
   z-index: -5;
 }
-/* problem */
+
 .filter-section {
   height: 71px;
   width: 100%;
@@ -1306,6 +1306,55 @@
 .gridbox:hover > .imgdiv > img {
   transform: scale(1.05);
 }
+/* superhost badge */
+.superhost-badge {
+  width: 90.27px;
+  height: 25px;
+  border: none;
+  background: linear-gradient(to bottom right, #f97316, #fb923c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  border-radius: 50px;
+}
+
+.superhost-badge p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-left: 2px;
+}
+
+.superhost-badge i {
+  color: rgba(255, 247, 0, 0.69);
+  font-size: 12px;
+}
+/* beach-badge */
+.beach-badge {
+  height: 23px;
+  width: 63.77px;
+  border: none;
+  border-radius: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 113px;
+  left: 12px;
+}
+
+.beach-badge p {
+  color: #1f2937;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-left: 2px;
+}
 /* box2 */
 #gridimg2 {
   border-top-left-radius: 18px;
@@ -1422,6 +1471,28 @@
 
 .gridbox:hover > .imgdiv > img {
   transform: scale(1.05);
+}
+/* mountain-badge */
+.mountain-badge {
+  height: 23px;
+  width: 82.14px;
+  border: none;
+  border-radius: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 113px;
+  left: 12px;
+}
+
+.mountain-badge p {
+  color: #1f2937;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-left: 2px;
 }
 /* box3 */
 #gridimg3 {
@@ -1540,6 +1611,55 @@
 .gridbox:hover > .imgdiv > img {
   transform: scale(1.05);
 }
+/* superhost badge */
+.superhost-badge {
+  width: 90.27px;
+  height: 25px;
+  border: none;
+  background: linear-gradient(to bottom right, #f97316, #fb923c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  border-radius: 50px;
+}
+
+.superhost-badge p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-left: 2px;
+}
+
+.superhost-badge i {
+  color: rgba(255, 247, 0, 0.69);
+  font-size: 12px;
+}
+/* city-badge */
+.city-badge {
+  height: 23px;
+  width: 50.95px;
+  border: none;
+  border-radius: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 113px;
+  left: 12px;
+}
+
+.city-badge p {
+  color: #1f2937;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-left: 2px;
+}
 /* box4 */
 #gridimg4 {
   border-top-left-radius: 18px;
@@ -1656,6 +1776,28 @@
 
 .gridbox:hover > .imgdiv > img {
   transform: scale(1.05);
+}
+/* luxury-badge */
+.luxury-badge {
+  width: 67.73px;
+  height: 25px;
+  border: none;
+  background-color: rgb(147, 51, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  border-radius: 50px;
+}
+
+.luxury-badge p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-left: 2px;
 }
 /* box5 */
 #gridimg5 {
@@ -1774,6 +1916,28 @@
 .gridbox:hover > .imgdiv > img {
   transform: scale(1.05);
 }
+/* forest-badge */
+.forest-badge {
+  height: 23px;
+  width: 63.81px;
+  border: none;
+  border-radius: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 113px;
+  left: 12px;
+}
+
+.forest-badge p {
+  color: #1f2937;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-left: 2px;
+}
 /* box6 */
 #gridimg6 {
   border-top-left-radius: 18px;
@@ -1890,6 +2054,33 @@
 
 .gridbox:hover > .imgdiv > img {
   transform: scale(1.05);
+}
+/* superhost badge */
+.superhost-badge {
+  width: 90.27px;
+  height: 25px;
+  border: none;
+  background: linear-gradient(to bottom right, #f97316, #fb923c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  border-radius: 50px;
+}
+
+.superhost-badge p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-left: 2px;
+}
+
+.superhost-badge i {
+  color: rgba(255, 247, 0, 0.69);
+  font-size: 12px;
 }
 /* box7 */
 #gridimg7 {
@@ -2008,6 +2199,28 @@
 .gridbox:hover > .imgdiv > img {
   transform: scale(1.05);
 }
+/* budget-badge */
+.budget-badge {
+  height: 23px;
+  width: 69px;
+  border: none;
+  border-radius: 50px;
+  background-color: #dcfce7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 113px;
+  left: 12px;
+}
+
+.budget-badge p {
+  color: #15803d;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-left: 2px;
+}
 /* box8 */
 #gridimg8 {
   border-top-left-radius: 18px;
@@ -2124,6 +2337,33 @@
 
 .gridbox:hover > .imgdiv > img {
   transform: scale(1.05);
+}
+/* superhost badge */
+.superhost-badge {
+  width: 90.27px;
+  height: 25px;
+  border: none;
+  background: linear-gradient(to bottom right, #f97316, #fb923c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  border-radius: 50px;
+}
+
+.superhost-badge p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-left: 2px;
+}
+
+.superhost-badge i {
+  color: rgba(255, 247, 0, 0.69);
+  font-size: 12px;
 }
 
 .load-more {
