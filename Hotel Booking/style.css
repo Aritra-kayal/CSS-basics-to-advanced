@@ -1321,6 +1321,10 @@
   border-radius: 50px;
 }
 
+.superhost-badge:hover {
+  cursor: pointer;
+}
+
 .superhost-badge p {
   color: #fff;
   font-size: 12px;
@@ -1348,12 +1352,35 @@
   left: 12px;
 }
 
+.beach-badge:hover {
+  cursor: pointer;
+}
+
 .beach-badge p {
   color: #1f2937;
   font-size: 12px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
   margin-left: 2px;
+}
+/* love-div */
+.love-div {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: #fff;
+  transition: all 0.2s linear;
+}
+
+.love-div:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 /* box2 */
 #gridimg2 {
@@ -1487,12 +1514,20 @@
   left: 12px;
 }
 
+.mountain-badge:hover {
+  cursor: pointer;
+}
+
 .mountain-badge p {
   color: #1f2937;
   font-size: 12px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
   margin-left: 2px;
+}
+/* love-div */
+#love-div-red {
+  color: #ef4444;
 }
 /* box3 */
 #gridimg3 {
@@ -1626,6 +1661,10 @@
   border-radius: 50px;
 }
 
+.superhost-badge:hover {
+  cursor: pointer;
+}
+
 .superhost-badge p {
   color: #fff;
   font-size: 12px;
@@ -1651,6 +1690,10 @@
   position: absolute;
   bottom: 113px;
   left: 12px;
+}
+
+.city-badge:hover {
+  cursor: pointer;
 }
 
 .city-badge p {
@@ -1792,6 +1835,10 @@
   border-radius: 50px;
 }
 
+.luxury-badge:hover {
+  cursor: pointer;
+}
+
 .luxury-badge p {
   color: #fff;
   font-size: 12px;
@@ -1931,6 +1978,10 @@
   left: 12px;
 }
 
+.forest-badge:hover {
+  cursor: pointer;
+}
+
 .forest-badge p {
   color: #1f2937;
   font-size: 12px;
@@ -2068,6 +2119,10 @@
   top: 8px;
   left: 12px;
   border-radius: 50px;
+}
+
+.superhost-badge:hover {
+  cursor: pointer;
 }
 
 .superhost-badge p {
@@ -2214,6 +2269,10 @@
   left: 12px;
 }
 
+.budget-badge:hover {
+  cursor: pointer;
+}
+
 .budget-badge p {
   color: #15803d;
   font-size: 12px;
@@ -2351,6 +2410,10 @@
   top: 8px;
   left: 12px;
   border-radius: 50px;
+}
+
+.superhost-badge:hover {
+  cursor: pointer;
 }
 
 .superhost-badge p {
