@@ -3371,10 +3371,74 @@
   border: 1.5px solid #f3f4f6;
   border-radius: 18px;
   box-shadow: 2px 2px 3px #9ca3af;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: all 0.2s linear;
 }
 
 .testimonials-box:hover {
   transform: translateY(-7px);
   box-shadow: 4px 4px 5px #9ca3af;
+}
+
+.testimonial-inner-box {
+  height: 80%;
+  width: 339.33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial-star {
+  height: 14px;
+  width: 339.33px;
+  font-size: 14px;
+  color: #f59e0b;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-star i {
+  margin-right: 4px;
+}
+
+.testimonial-msg {
+  height: 91px;
+  width: 339.33px;
+  width: 339.33px;
+  line-height: 22.5px;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  color: #374151;
+}
+
+.testimonial-guest {
+  width: 339.33px;
+  height: 44.9px;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-guest-name {
+  height: 36px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  line-height: 18px;
+}
+
+.testimonial-guest-name-para1 {
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #111827;
+}
+
+.testimonial-guest-name-para2 {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  color: #9ca3af;
 }
