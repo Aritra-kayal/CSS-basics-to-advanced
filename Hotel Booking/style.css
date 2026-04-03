@@ -3644,3 +3644,339 @@
   cursor: pointer;
   background-color: #ffffffea;
 }
+
+.newsletter-section {
+  height: 133px;
+  width: 100%;
+  background-color: #f9fafb;
+  border-top: 2px solid #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-section-inner-container {
+  height: 52px;
+  width: 1216px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newsletter-section-inner-container1 {
+  height: 52px;
+  width: 400px;
+  line-height: 28px;
+}
+
+.newsletter-section-inner-container1-para1 {
+  font-size: 20px;
+  color: #111827;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.newsletter-section-inner-container1-para2 {
+  font-size: 14px;
+  color: #6b7280;
+  font-family: "Inter", sans-serif;
+}
+
+.newsletter-section-inner-container2 {
+  height: 46px;
+  width: 416.59px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 9px;
+}
+
+.email {
+  border: 1.5px solid #e5e7eb;
+  width: 288px;
+  height: 46px;
+  padding-left: 0.8em;
+  outline: none;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 18px;
+  transition: all 0.5s;
+}
+
+.email:hover,
+.email:focus {
+  border: 1.5px solid #6366f1;
+  box-shadow: 0px 0px 0px 3px #6366f133;
+  background-color: white;
+}
+
+.subscribe-btn {
+  height: 44px;
+  width: 116.59px;
+  border-radius: 18px;
+  color: #fff;
+  background: linear-gradient(to bottom right, #6366f1e1, #a855f7e1);
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-left: 10px;
+  transition: all 0.2s linear;
+}
+
+.subscribe-btn:hover {
+  transform: translateY(-2.5px);
+  background: linear-gradient(to bottom right, #6365f1, #a955f7);
+  box-shadow: 2px 2px 5px #9ca3af;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+}
+
+.footer-div {
+  height: 377px;
+  width: 100%;
+  background-color: #111827;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-footer-div {
+  height: 377px;
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.inner-footer-div-container1 {
+  height: 196px;
+  width: 1216px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  column-gap: 32px;
+}
+
+.inner-footer-div-container2 {
+  height: 45px;
+  width: 1216px;
+  border: 1px solid white;
+}
+
+.inner-footer-div-container-grid1 {
+  height: 195.55px;
+  width: 217.6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+
+.inner-footer-div-container-grid2 {
+  height: 195.55px;
+  width: 217.6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inner-footer-div-container-grid2-para1 {
+  height: 20px;
+  width: 217.6px;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.all-para {
+  height: 160px;
+  width: 217.6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.all-para p a {
+  text-decoration: none;
+  color: #9ca3af;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  transition: all 0.1s linear;
+}
+
+.all-para p a:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.inner-footer-div-container-grid3 {
+  height: 195.55px;
+  width: 217.6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inner-footer-div-container-grid3-para1 {
+  height: 20px;
+  width: 217.6px;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.inner-footer-div-container-grid4 {
+  height: 195.55px;
+  width: 217.6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inner-footer-div-container-grid4-para1 {
+  height: 20px;
+  width: 217.6px;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.inner-footer-div-container-grid5 {
+  height: 195.55px;
+  width: 217.6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inner-footer-div-container-grid5-para1 {
+  height: 20px;
+  width: 217.6px;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.inner-footer-div-container-grid1-div1 {
+  height: 32px;
+  width: 217.6px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.inner-footer-div-container-grid1-div1 img {
+  height: 32px;
+  width: 32px;
+  margin-left: -8px;
+}
+
+.inner-footer-div-container-grid1-div1 p {
+  height: 32px;
+  width: 32px;
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-top: 7px;
+  color: #fff;
+}
+
+.inner-footer-div-container-grid1-div2 {
+  height: 69px;
+  width: 217.6px;
+  margin-bottom: 7px;
+}
+
+.inner-footer-div-container-grid1-div2 p {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  color: #9ca3af;
+  line-height: 22.8px;
+}
+
+.inner-footer-div-container-grid1-div3 {
+  height: 33.2px;
+  width: 217.6px;
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.facebook {
+  height: 32px;
+  width: 32px;
+  background-color: #1f2937;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  transition: all 0.2s linear;
+}
+
+.fa-facebook {
+  font-family: 14px;
+  color: #fff;
+}
+
+.facebook:hover {
+  background-color: #4244e9;
+  cursor: pointer;
+}
+
+.twitter {
+  height: 32px;
+  width: 32px;
+  background-color: #1f2937;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  transition: all 0.2s linear;
+}
+
+.twitter:hover {
+  background-color: #4244e9;
+  cursor: pointer;
+}
+
+.fa-twitter {
+  font-family: 14px;
+  color: #fff;
+}
+
+.instagram {
+  height: 32px;
+  width: 32px;
+  background-color: #1f2937;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s linear;
+}
+
+.instagram:hover {
+  background-color: #4244e9;
+  cursor: pointer;
+}
+
+.fa-instagram {
+  font-family: 14px;
+  color: #fff;
+}
