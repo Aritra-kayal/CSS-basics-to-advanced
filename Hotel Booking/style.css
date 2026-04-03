@@ -3769,7 +3769,10 @@
 .inner-footer-div-container2 {
   height: 45px;
   width: 1216px;
-  border: 1px solid white;
+  border-top: 1.5px solid #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .inner-footer-div-container-grid1 {
@@ -3979,4 +3982,33 @@
 .fa-instagram {
   font-family: 14px;
   color: #fff;
+}
+
+.inner-footer-div-container2-div1 {
+  height: 20px;
+  width: 280px;
+  font-size: 14px;
+  color: #6b7280;
+  font-family: "Inter", sans-serif;
+}
+
+.inner-footer-div-container2-div2 {
+  height: 20px;
+  width: 357.49px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner-footer-div-container2-div2 p a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #6b7280;
+  font-family: "Inter", sans-serif;
+  transition: all 0.1s linear;
+}
+
+.inner-footer-div-container2-div2 p a:hover {
+  color: #fff;
+  cursor: pointer;
 }
