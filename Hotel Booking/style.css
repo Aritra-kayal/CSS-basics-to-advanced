@@ -334,6 +334,7 @@
   font-weight: 500;
   /* creat mix color for text */
   background: linear-gradient(to bottom right, #fb923c, #f472b6);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: -18.5px;
